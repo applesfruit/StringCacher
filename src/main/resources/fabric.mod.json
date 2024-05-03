@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "afstringcacher",
+  "version": "1.7.10",
+  "name": "applesfruit's String Cacher",
+  "description": "Caches strings to hopefully improve performance, may or may not work. (Uses more RAM).\nCourtesy of SpaceByte's OptiRenderer, ported to LF by applesfruit",
+  "authors": [
+    "applesfruit",
+    "SpaceByte"
+  ],
+  "contact": {
+    "homepage": "https://github.com/applesfruit",
+    "sources": "https://github.com/applesfruit/"
+  },
+  "license": "CC BY NC-SA 4.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.applesfruit.minecraft.stringcacher.StringCacher"
+    ]
+  },
+  "mixins": [
+    "afstringcacher.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.7.10"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

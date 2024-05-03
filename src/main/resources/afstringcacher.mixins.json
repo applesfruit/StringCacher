@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.applesfruit.minecraft.stringcacher.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinTextRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
