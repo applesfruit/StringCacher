@@ -1,5 +1,5 @@
 # applesfruit's StringCacher
-
+## [Download](https://github.com/applesfruit/StringCacher/releases/tag/Release)
 unfinished, (likely not) ram intensive, however can be after a while
 
 pairing with a couple more mods
